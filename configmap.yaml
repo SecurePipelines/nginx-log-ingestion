@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+  namespace: observability
+data:
+  nginx.conf: |
+    # Mounted as /etc/nginx/nginx.conf
